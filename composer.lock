@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "03e37f4e70989f487d32af739e68b919",
+    "content-hash": "6fa9a9906aec498ff0f0fb318de5b40d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1024,16 +1024,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.8",
+            "version": "v0.8.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "fe65c30cbc55c71e61ba3a38b5a581149be31b8e"
+                "reference": "58a31cc4404c8f632d8c557bc72056af2d3a83db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/fe65c30cbc55c71e61ba3a38b5a581149be31b8e",
-                "reference": "fe65c30cbc55c71e61ba3a38b5a581149be31b8e",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/58a31cc4404c8f632d8c557bc72056af2d3a83db",
+                "reference": "58a31cc4404c8f632d8c557bc72056af2d3a83db",
                 "shasum": ""
             },
             "require": {
@@ -1093,7 +1093,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-06-24T06:16:19+00:00"
+            "time": "2017-07-06T14:53:52+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -3694,7 +3694,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.4"
+        "php": "^7.0"
     },
     "platform-dev": []
 }
