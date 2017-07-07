@@ -4,18 +4,12 @@ use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class ExampleTest extends TestCase
+class ExampleTest extends FeatureTestCase
 {
     use DatabaseTransactions;
-    /**
-     * A basic functional test example.
-     *
-     * @return void
-     */
-    public function testBasicExample()
+
+    function testBasicExample()
     {
-
-
         $user = factory(\App\User::class)->create(
             [
                 'name' => 'Miguel Angel Caballero Naal',
